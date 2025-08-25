@@ -1,0 +1,6 @@
+openai-agents
+py-dotenv
+rich
+asyncio
+pydantic
+typing

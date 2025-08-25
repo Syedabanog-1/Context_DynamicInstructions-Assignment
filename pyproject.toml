@@ -1,0 +1,14 @@
+[project]
+name = "context-dynamic-person"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "openai-agents>=0.2.9",
+    "py-dotenv>=0.1",
+    "pydantic>=2.11.7",
+    "rich>=14.1.0",
+    "typing>=3.10.0.0",
+]
