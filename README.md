@@ -1,5 +1,6 @@
-CONTEXT DYNAMIC INSTRUCTIONS
-This repository contains 4 projects based on context dynamic instructions
+ AI Powered based "CONTEXT DYNAMIC INSTRUCTIONS"
+ 
+This repository contains 4 projects based on Openai Agents SDK context dynamic instructions
 
 Person Info
 Medical Consultation (Patient/MedicalStudent/Doctor)
@@ -25,7 +26,19 @@ Adventure + Solo: Suggest exciting activities, focus on safety tips, recommend s
 
 
 
-https://github.com/user-attachments/assets/054330de-2369-42c4-86f9-7fe52a0740c3
+
+https://github.com/user-attachments/assets/3b9d9195-62a1-4dcb-bc08-a926b9053583
 
 
-Uploading bandicam 2025-08-25 16-42-40-334.mp
+
+<img width="1613" height="906" alt="tracing" src="https://github.com/user-attachments/assets/8b501575-7358-4551-934c-0d6287e5cbca" />
+<img width="1610" height="904" alt="person_log" src="https://github.com/user-attachments/assets/e3e41c35-7028-422b-beda-7d49469f1710" />
+<img width="1612" height="906" alt="medicalconsultation_log" src="https://github.com/user-attachments/assets/6d4a29a6-7489-48f7-a83d-8febf4d688bb" />
+<img width="1609" height="905" alt="airlinebooking_log" src="https://github.com/user-attachments/assets/a91466b7-1e89-4e6e-8f75-90ea500d6416" />
+<img width="1612" height="906" alt="travelplan_log" src="https://github.com/user-attachments/assets/833db741-18bd-4170-8083-6fe5b7a6b36c" />
+<img width="1610" height="908" alt="Logs" src="https://github.com/user-attachments/assets/3e11f078-ccfd-4a63-aca4-179e0787fcc6" />
+<img width="1613" height="906" alt="travelplanning" src="https://github.com/user-attachments/assets/e68929a5-13cd-401b-be0a-8da85a9888da" />
+<img width="1610" height="908" alt="airlinebooking" src="https://github.com/user-attachments/assets/6989b966-4de5-4cb4-a4bb-4a4f883e9dd2" />
+<img width="1608" height="903" alt="medicalconsultation" src="https://github.com/user-attachments/assets/7ce51a09-bf9d-4842-934a-bd142d722bd8" />
+<img width="1609" height="906" alt="person py" src="https://github.com/user-attachments/assets/289d618c-24b9-4488-882f-e07874e585fc" />
+
