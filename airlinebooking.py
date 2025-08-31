@@ -1,8 +1,11 @@
 from agents import Agent, RunContextWrapper, Runner, trace
 from pydantic import BaseModel
-from connection import config
+#from connection import config
 import asyncio
 import rich
+from dotenv import load_dotenv
+load_dotenv()
+
 
 class AirlineBooking(BaseModel):
     seat_preference: str
@@ -34,7 +37,7 @@ async def main():
         result = await Runner.run(
             airlinebooking_agent,
             "Suggest seat and travel experience tips",
-            run_config=config,
+            
             context=airline_booking
         )
         rich.print(result.final_output)

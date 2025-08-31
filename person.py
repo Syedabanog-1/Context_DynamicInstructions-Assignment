@@ -1,9 +1,10 @@
 from agents import Agent, RunContextWrapper, Runner, trace
 from pydantic import BaseModel
-from connection import config 
+#from connection import config 
 import asyncio
 import rich
-
+from dotenv import load_dotenv
+load_dotenv()
 class Person(BaseModel):
     name: str
     user_level: str
@@ -25,6 +26,7 @@ personal_agent = Agent(
     name="Agent",
     instructions=my_dynamic_instructions,
     
+
 )
 
 async def main():
@@ -32,7 +34,6 @@ async def main():
         result = await Runner.run(
             personal_agent,
             "What is light?",
-            run_config=config,
             context=person
         )
         rich.print(result.final_output)

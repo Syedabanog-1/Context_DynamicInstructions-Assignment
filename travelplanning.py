@@ -1,8 +1,10 @@
 from agents import Agent, RunContextWrapper, Runner,trace
 from pydantic import BaseModel
-from connection import config
+#from connection import config
 import asyncio
 import rich
+from dotenv import load_dotenv
+load_dotenv()
 
 class TravelPlanning(BaseModel):
     trip_type: str
@@ -32,7 +34,7 @@ async def main():
         result = await Runner.run(
             travel_planning_agent,
             "Suggest Travel Plan",
-            run_config=config,
+            
             context=travel_planning
         )
         rich.print(result.final_output)

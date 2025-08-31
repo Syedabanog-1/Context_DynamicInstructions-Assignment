@@ -1,8 +1,10 @@
 from agents import Agent, RunContextWrapper, Runner, trace
 from pydantic import BaseModel
-from connection import config
+#from connection import config
 import asyncio
 import rich
+from dotenv import load_dotenv
+load_dotenv()
 
 class MedicalConsultation(BaseModel):
     name: str
@@ -32,7 +34,7 @@ async def main():
         result = await Runner.run(
             medicalconsultation_agent,
             "Describe Blood Pressure Disease?",
-            run_config=config,
+            
             context=medicalconsultant_user
         )
         rich.print(result.final_output)
