@@ -27,8 +27,10 @@ Adventure + Solo: Suggest exciting activities, focus on safety tips, recommend s
 
 
 
-https://github.com/user-attachments/assets/3b9d9195-62a1-4dcb-bc08-a926b9053583
+https://github.com/user-attachments/assets/f2cc52ae-0c92-4074-b8c4-bbb3bee87afb
 
+
+https://github.com/user-attachments/assets/3b9d9195-62a1-4dcb-bc08-a926b9053583
 
 
 <img width="1613" height="906" alt="tracing" src="https://github.com/user-attachments/assets/8b501575-7358-4551-934c-0d6287e5cbca" />
